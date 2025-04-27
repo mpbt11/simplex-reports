@@ -2,11 +2,12 @@
   "name": "simplex-reports",
   "version": "1.0.0",
   "description": "Biblioteca para geração de relatórios em Excel e CSV dividindo dados em partes grandes.",
-  "main": "dist/index.js",
+  "main": "dist-obfuscated/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
     "example": "ts-node examples/basic-usage.ts",
+    "obfuscate": "javascript-obfuscator dist/ --output dist-obfuscated/",
     "prepublishOnly": "npm run build"
   },
   "keywords": [
