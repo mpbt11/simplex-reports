@@ -9,11 +9,19 @@
     "example": "ts-node examples/basic-usage.ts",
     "prepublishOnly": "npm run build"
   },
+  "keywords": [
+    "excel",
+    "csv",
+    "relatorios",
+    "report",
+    "nodejs"
+  ],
   "author": "Maria Paula",
   "license": "MIT",
   "dependencies": {
     "csv-writer": "^1.6.0",
-    "exceljs": "^4.4.0"
+    "exceljs": "^4.4.0",
+    "path": "^0.12.7"
   },
   "devDependencies": {
     "ts-node": "^10.9.1",
