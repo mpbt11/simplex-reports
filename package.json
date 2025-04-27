@@ -1,0 +1,22 @@
+{
+  "name": "simplex-reports",
+  "version": "1.0.0",
+  "description": "Biblioteca para geração de relatórios em Excel e CSV dividindo dados em partes grandes.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "example": "ts-node examples/basic-usage.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "author": "Maria Paula",
+  "license": "MIT",
+  "dependencies": {
+    "csv-writer": "^1.6.0",
+    "exceljs": "^4.4.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.4.3"
+  }
+}
