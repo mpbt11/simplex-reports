@@ -7,6 +7,7 @@
   "scripts": {
     "build": "tsc",
     "example": "ts-node examples/basic-usage.ts",
+    "example:simple": "ts-node examples/simple-example.ts",
     "obfuscate": "javascript-obfuscator dist/ --output dist-obfuscated/",
     "prepublishOnly": "npm run build"
   },
