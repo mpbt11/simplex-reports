@@ -1,4 +1,3 @@
-// src/index.ts
 import { splitDataIntoChunks } from "./utils/chunkUtils";
 import { generateExcel } from "./generators/excelGenerator";
 import { generateCSV } from "./generators/csvGenerator";
